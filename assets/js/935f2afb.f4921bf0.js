@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{73:function(e){e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","isLast":true,"docsSidebars":{"docs":[{"collapsed":true,"type":"category","label":"Azuma Documentation","items":[{"type":"link","label":"Introduction","href":"/"}]}]},"permalinkToSidebar":{"/":"docs"}}')}}]);
