@@ -1,0 +1,25 @@
+name: github-pages
+
+on: push
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout sources
+              uses: actions/checkout@v2
+
+            - name: Start SSH agent
+              uses: webfactory/ssh-agent@v0.5
+              with:
+                  ssh-private-key: ${{ secrets.SSH_DEPLOY_KEY }}
+
+            - name: Deploy to GitHub Pages
+              env:
+                  USE_SSH: true
+                  GIT_USER: git
+              run: |
+                  git config user.email "actions@github.com"
+                  git config user.name "gh-actions"
+                  yarn install
+                  yarn deploy

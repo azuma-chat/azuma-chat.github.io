@@ -1,0 +1,21 @@
+{
+    "name": "azuma-chat.github.io",
+    "version": "0.1.0",
+    "author": "okrplay <32576280+okrplay@users.noreply.github.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "docusaurus start --port 8080 --host 127.0.0.1 --no-open",
+        "build": "docusaurus build",
+        "clear": "docusaurus clear",
+        "deploy": "docusaurus deploy"
+    },
+    "dependencies": {
+        "@docusaurus/core": "^2.0.0-alpha.72",
+        "@docusaurus/plugin-content-docs": "^2.0.0-alpha.72",
+        "@docusaurus/theme-classic": "^2.0.0-alpha.72",
+        "@mdx-js/react": "1",
+        "clsx": "1",
+        "react": "17",
+        "react-dom": "17"
+    }
+}
