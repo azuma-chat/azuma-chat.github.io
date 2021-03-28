@@ -9,6 +9,9 @@ module.exports = {
     themeConfig: {
         colorMode: {
             respectPrefersColorScheme: true
+        },
+        navbar: {
+            title: "Azuma Documentation"
         }
     },
     plugins: [
