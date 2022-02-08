@@ -3,9 +3,9 @@ module.exports = {
     url: "https://azuma-chat.github.io",
     baseUrl: "/",
     favicon: "img/favicon.ico",
+    trailingSlash: true,
     organizationName: "azuma-chat",
     projectName: "azuma-chat.github.io",
-    //    staticDirectories: ["static"],
     themes: ["@docusaurus/theme-classic"],
     themeConfig: {
         colorMode: {
