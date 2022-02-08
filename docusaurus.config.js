@@ -1,18 +1,19 @@
 module.exports = {
     title: "Azuma Documentation",
-    favicon: "img/favicon.ico",
     url: "https://azuma-chat.github.io",
     baseUrl: "/",
-    projectName: "azuma-chat.github.io",
+    favicon: "img/favicon.ico",
     organizationName: "azuma-chat",
+    projectName: "azuma-chat.github.io",
+    //    staticDirectories: ["static"],
     themes: ["@docusaurus/theme-classic"],
     themeConfig: {
         colorMode: {
-            respectPrefersColorScheme: true
+            respectPrefersColorScheme: true,
         },
         navbar: {
-            title: "Azuma Documentation"
-        }
+            title: "Azuma Documentation",
+        },
     },
     plugins: [
         [
@@ -20,8 +21,8 @@ module.exports = {
             {
                 path: "docs",
                 routeBasePath: "/",
-                sidebarPath: "docs/sidebar.js"
-            }
-        ]
-    ]
-}
+                sidebarPath: "docs/sidebar.js",
+            },
+        ],
+    ],
+};
