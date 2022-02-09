@@ -25,7 +25,7 @@ Users can exchange information by sending messages in textchannels.
 ```json
 {
   "channel": "Uuid", // "ee8e77d9-290e-4bb9-84a1-c2b7efb338df"
-  "content": "Uuid" // "Hello World"
+  "content": "String" // "Hello World"
 }
 ```
 
